@@ -1,0 +1,38 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SpiffGreen",
+      "name": "Spiff Jekey-Green",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73044138?v=4",
+      "profile": "https://spiffgreen.pages.dev/",
+      "contributions": [
+        "bug",
+        "code",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "amarealcoder",
+      "name": "Ugorji Miracle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74703564?v=4",
+      "profile": "https://www.linkedin.com/in/miracle-ugorji/",
+      "contributions": [
+        "code",
+        "design",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "memester",
+  "projectOwner": "Evavic44",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
