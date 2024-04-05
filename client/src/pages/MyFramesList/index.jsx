@@ -22,7 +22,9 @@ function MyFramesList() {
 	useEffect(() => {
 		const fetchMemes = async () => {
 			try {
-				const response = await axios.get(`${API_URLS.development}/meme`);
+				const response = await axios.get(
+					`${import.meta.env.VITE_BACKEND_URL}/meme`,
+				);
 				setMemes(response.data);
 				setLoading(false);
 			} catch (error) {

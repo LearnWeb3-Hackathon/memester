@@ -94,7 +94,7 @@ export default function Create() {
 		const fetchContest = async () => {
 			try {
 				const response = await axios.get(
-					`${API_URLS.development}/api/contest/${contestId}`,
+					`${import.meta.env.VITE_FRAME_URL}/api/contest/${contestId}`,
 				);
 				setContest(response.data);
 				console.log("contest response data =======>>>>", response.data);

@@ -22,7 +22,9 @@ function ContestList() {
 	useEffect(() => {
 	const fetchContests = async () => {
 		try {
-			const response = await axios.get("/api/contest");
+			const response = await axios.get(
+				`${import.meta.env.VITE_FRAME_URL}/api/contest`,
+			);
 			setContests(response.data);
 		} catch (error) {
 			console.error("Error fetching contests:", error);

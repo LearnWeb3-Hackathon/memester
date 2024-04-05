@@ -32,7 +32,7 @@ function Contest() {
 		const fetchContest = async () => {
 			try {
 				const response = await axios.get(
-					`${API_URLS.development}/api/contest/${id}`,
+					`${import.meta.env.VITE_FRAME_URL}/api/contest/${id}`,
 				);
 				setContest(response.data);
 				setLoading(false);
